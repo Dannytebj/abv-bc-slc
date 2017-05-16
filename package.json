@@ -1,0 +1,26 @@
+{
+  "name": "get_Primes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "library.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine-node spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dannytebj/abv-bc-slc.git"
+  },
+  "keywords": [
+    "prime",
+    "numbers"
+  ],
+  "author": "Daniel Atebije",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dannytebj/abv-bc-slc/issues"
+  },
+  "homepage": "https://github.com/Dannytebj/abv-bc-slc#readme",
+  "dependencies": {
+    "jasmine-node": "^1.14.5"
+  }
+}
