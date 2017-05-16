@@ -1,5 +1,31 @@
+function add(x, y) {  
+    return x + y;
+}
+
+function subtract(x, y) {  
+    return x - y;
+}
+
+function multiply(x, y) {  
+    return x * y;
+}
+
+function divide(x, y) {  
+    if (y === 0) {
+        return 0;
+    } else {
+        return x / y;
+    }
+}
+
+
+
+
+function helloWorld() {
+  return 'Hello world!';
+}
+
 function isPrimeNumber(number) {
-  //this function checks for prime numbers
   let isPrime = true;
   Array.apply(null, Array(number)).forEach((_, index) => {
     const currentNumber = index + 2;
@@ -11,14 +37,13 @@ function isPrimeNumber(number) {
 }
 
 function getPrimes(n) {
-  //this function gets all prime numbers within n by checking against isPrimeNumber
    if (!Number.isInteger(n)) {
     return [];
   }
   return Array.apply(null, Array(n)).map((_, index) => {
     const currentNumber = index + 2;
     if (currentNumber < n && isPrimeNumber(currentNumber)) {
-      return currentNumber;
+      return currentNumber
     }
     return 0;
   }).filter((i) => { return i != 0; });

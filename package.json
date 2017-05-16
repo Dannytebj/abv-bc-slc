@@ -1,7 +1,7 @@
 {
-  "name": "get_Primes",
+  "name": "get_prime",
   "version": "1.0.0",
-  "description": "A code that checks for prime numbers between 0 and n",
+  "description": "a function that get prime numbers from 0 to n",
   "main": "app/library.js",
   "scripts": {
     "test": "./node_modules/.bin/jasmine-node spec"
