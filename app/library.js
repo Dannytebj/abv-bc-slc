@@ -18,7 +18,7 @@ function getPrimes(n) {
   return Array.apply(null, Array(n)).map((_, index) => {
     const currentNumber = index + 2;
     if (currentNumber < n && isPrimeNumber(currentNumber)) {
-      return currentNumber
+      return currentNumber;
     }
     return 0;
   }).filter((i) => { return i != 0; });
