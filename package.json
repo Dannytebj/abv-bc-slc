@@ -2,7 +2,7 @@
   "name": "get_Primes",
   "version": "1.0.0",
   "description": "",
-  "main": "library.js",
+  "main": "app/library.js",
   "scripts": {
     "test": "./node_modules/.bin/jasmine-node spec"
   },
